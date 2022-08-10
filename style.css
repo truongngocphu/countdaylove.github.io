@@ -92,16 +92,17 @@ time {
     grid-column: span 2;
     display: grid;
     grid-template-rows: 2;
-    font-size: 44px;
+    font-size: 60px;
     color: #b90d46;
     align-self: center;
-    padding-bottom: 2.6rem;
+    padding-bottom: 2.2rem;
     text-align: center;
 }
 
 anni {
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0.2px;
+    margin-top: auto;
 }
 
 #info .one {
