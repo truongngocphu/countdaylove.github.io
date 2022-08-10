@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: #f6f6f6;
+    background: linear-gradient(to top, #6d44cc5d 0%, #f09cd880 100%);
     margin: 0;
     padding: 0;
 }
@@ -8,6 +8,17 @@ body {
 img {
     max-width: 100%;
 }
+
+
+/* #mask {
+    background-image: linear-gradient(to top, #6d44cc5d 0%, #f09cd880 100%);
+    opacity: .42;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+} */
 
 body {
     display: grid;
@@ -118,14 +129,10 @@ footer {
     opacity: .4;
 }
 
-#mask {
-    background-image: linear-gradient(to top, #6d44cc5d 0%, #f09cd880 100%);
-    opacity: .42;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
+#about {
+    font-size: 10px;
+    text-align: left;
+    color: red;
 }
 
 @media (max-width: 992px) {
