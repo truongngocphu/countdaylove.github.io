@@ -9,8 +9,7 @@ img {
     max-width: 100%;
 }
 
-
-/* #mask {
+#mask {
     background-image: linear-gradient(to top, #6d44cc5d 0%, #f09cd880 100%);
     opacity: .42;
     width: 100vw;
@@ -18,7 +17,7 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-} */
+}
 
 body {
     display: grid;
